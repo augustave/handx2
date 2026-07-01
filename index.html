@@ -198,6 +198,9 @@
 
   .pagefoot{max-width:760px;margin:30px auto 0;text-align:center;}
   .pagefoot .micro{color:#cdbfa0;}
+  .flags{display:flex;align-items:center;justify-content:center;gap:15px;margin:0 0 16px;}
+  .flags .flag{height:26px;width:auto;display:block;border:1px solid rgba(255,255,255,.35);box-shadow:0 2px 9px rgba(0,0,0,.45);border-radius:1px;}
+  .flags .dot{color:#8a8272;font-family:"EB Garamond",serif;font-size:12px;}
 
   @media (max-width:620px){
     .badge svg{width:60px;height:60px;}
@@ -406,6 +409,44 @@
   </article>
 
   <div class="pagefoot">
+    <div class="flags" aria-label="United States and Argentina">
+      <svg class="flag" viewBox="0 0 38 20" role="img" aria-label="Flag of the United States" xmlns="http://www.w3.org/2000/svg">
+        <rect width="38" height="20" fill="#fff"/>
+        <g fill="#B22234">
+          <rect y="0" width="38" height="1.538"/>
+          <rect y="3.077" width="38" height="1.538"/>
+          <rect y="6.154" width="38" height="1.538"/>
+          <rect y="9.231" width="38" height="1.538"/>
+          <rect y="12.308" width="38" height="1.538"/>
+          <rect y="15.385" width="38" height="1.538"/>
+          <rect y="18.462" width="38" height="1.538"/>
+        </g>
+        <rect width="15.2" height="10.77" fill="#3C3B6E"/>
+        <g fill="#fff">
+          <circle cx="1.4" cy="1.6" r="0.42"/><circle cx="4.5" cy="1.6" r="0.42"/><circle cx="7.6" cy="1.6" r="0.42"/><circle cx="10.7" cy="1.6" r="0.42"/><circle cx="13.8" cy="1.6" r="0.42"/>
+          <circle cx="1.4" cy="4.2" r="0.42"/><circle cx="4.5" cy="4.2" r="0.42"/><circle cx="7.6" cy="4.2" r="0.42"/><circle cx="10.7" cy="4.2" r="0.42"/><circle cx="13.8" cy="4.2" r="0.42"/>
+          <circle cx="1.4" cy="6.8" r="0.42"/><circle cx="4.5" cy="6.8" r="0.42"/><circle cx="7.6" cy="6.8" r="0.42"/><circle cx="10.7" cy="6.8" r="0.42"/><circle cx="13.8" cy="6.8" r="0.42"/>
+          <circle cx="1.4" cy="9.4" r="0.42"/><circle cx="4.5" cy="9.4" r="0.42"/><circle cx="7.6" cy="9.4" r="0.42"/><circle cx="10.7" cy="9.4" r="0.42"/><circle cx="13.8" cy="9.4" r="0.42"/>
+        </g>
+      </svg>
+      <span class="dot">✦</span>
+      <svg class="flag" viewBox="0 0 38 24" role="img" aria-label="Flag of Argentina" xmlns="http://www.w3.org/2000/svg">
+        <rect width="38" height="24" fill="#fff"/>
+        <rect width="38" height="8" fill="#74ACDF"/>
+        <rect y="16" width="38" height="8" fill="#74ACDF"/>
+        <g stroke="#E8A712" stroke-width="0.55" stroke-linecap="round">
+          <line x1="15.4" y1="12" x2="22.6" y2="12"/>
+          <line x1="15.674" y1="10.622" x2="22.326" y2="13.378"/>
+          <line x1="16.455" y1="9.455" x2="21.545" y2="14.545"/>
+          <line x1="17.622" y1="8.674" x2="20.378" y2="15.326"/>
+          <line x1="19" y1="8.4" x2="19" y2="15.6"/>
+          <line x1="20.378" y1="8.674" x2="17.622" y2="15.326"/>
+          <line x1="21.545" y1="9.455" x2="16.455" y2="14.545"/>
+          <line x1="22.326" y1="10.622" x2="15.674" y2="13.378"/>
+        </g>
+        <circle cx="19" cy="12" r="2.2" fill="#F6B40E" stroke="#C77F0A" stroke-width="0.3"/>
+      </svg>
+    </div>
     <div class="micro">✦ &nbsp; The Hand of God Problem &nbsp;·&nbsp; MMXXVI &nbsp;·&nbsp; Strength Precedes Virtue &nbsp; ✦</div>
   </div>
 
